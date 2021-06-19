@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Practice",
+      "request": "launch",
+      "mainClass": "Practice",
+      "projectName": "HackerRank_Java_eb480aa9"
+    },
+    {
+      "type": "java",
       "name": "Launch Palindrome",
       "request": "launch",
       "mainClass": "Palindrome",
