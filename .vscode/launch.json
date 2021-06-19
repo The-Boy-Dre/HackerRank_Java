@@ -1,0 +1,154 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Palindrome",
+      "request": "launch",
+      "mainClass": "Palindrome",
+      "projectName": "HackerRank_Java_2ea8b9d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch DataTypes",
+      "request": "launch",
+      "mainClass": "DataTypes",
+      "projectName": "HackerRank_Java_2ea8b9d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Practice",
+      "request": "launch",
+      "mainClass": "Practice",
+      "projectName": "HackerRank_Java_2ea8b9d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch EndOfFile",
+      "request": "launch",
+      "mainClass": "EndOfFile",
+      "projectName": "HackerRank_Java_2ea8b9d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch prep1",
+      "request": "launch",
+      "mainClass": "prep1",
+      "projectName": "HackerRank_Java_2ea8b9d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch CommandLine",
+      "request": "launch",
+      "mainClass": "CommandLine",
+      "projectName": "HackerRank_Java_2ea8b9d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch TwoSums",
+      "request": "launch",
+      "mainClass": "TwoSums",
+      "projectName": "HackerRank_Java_2ea8b9d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch TwoSums",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.TwoSums",
+      "projectName": "Java_e8a3a279"
+    },
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch Day6",
+      "request": "launch",
+      "mainClass": "Day6",
+      "projectName": "Java_e8a3a279"
+    },
+    {
+      "type": "java",
+      "name": "Launch Day7",
+      "request": "launch",
+      "mainClass": "Day7",
+      "projectName": "Java_e8a3a279"
+    },
+    {
+      "type": "java",
+      "name": "Launch Area",
+      "request": "launch",
+      "mainClass": "LanguageProficiency.Area",
+      "projectName": "Java_e8a3a279"
+    },
+    {
+      "type": "java",
+      "name": "Launch CommandLine",
+      "request": "launch",
+      "mainClass": "LanguageProficiency.CommandLine",
+      "projectName": "Java_e8a3a279"
+    },
+    {
+      "type": "java",
+      "name": "Launch CurrencyFormatter",
+      "request": "launch",
+      "mainClass": "LanguageProficiency.CurrencyFormatter",
+      "projectName": "Java_e8a3a279"
+    },
+    {
+      "type": "java",
+      "name": "Launch DataTypes",
+      "request": "launch",
+      "mainClass": "LanguageProficiency.DataTypes",
+      "projectName": "Java_e8a3a279"
+    },
+    {
+      "type": "java",
+      "name": "Launch EndOfFile",
+      "request": "launch",
+      "mainClass": "LanguageProficiency.EndOfFile",
+      "projectName": "Java_e8a3a279"
+    },
+    {
+      "type": "java",
+      "name": "Launch JavaStringreverse",
+      "request": "launch",
+      "mainClass": "LanguageProficiency.JavaStringreverse",
+      "projectName": "Java_e8a3a279"
+    },
+    {
+      "type": "java",
+      "name": "Launch JavaSubstring",
+      "request": "launch",
+      "mainClass": "LanguageProficiency.JavaSubstring",
+      "projectName": "Java_e8a3a279"
+    },
+    {
+      "type": "java",
+      "name": "Launch JavaSubstringComparisons",
+      "request": "launch",
+      "mainClass": "LanguageProficiency.JavaSubstringComparisons",
+      "projectName": "Java_e8a3a279"
+    },
+    {
+      "type": "java",
+      "name": "Launch StringMethods",
+      "request": "launch",
+      "mainClass": "LanguageProficiency.StringMethods",
+      "projectName": "Java_e8a3a279"
+    },
+    {
+      "type": "java",
+      "name": "Launch test",
+      "request": "launch",
+      "mainClass": "LanguageProficiency.test",
+      "projectName": "Java_e8a3a279"
+    }
+  ]
+}
