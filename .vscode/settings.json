@@ -1,6 +1,7 @@
 {
   "java.project.sourcePaths": [
+    "ThirtyDaysofCode",
     "LanguageProficiency",
-    "ThirtyDaysofCode"
+    "OtherFiles"
   ]
 }

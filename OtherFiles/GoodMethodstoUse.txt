@@ -1,0 +1,20 @@
+Integer.toString(a)   String str1 = Integer.toString(a);
+String.valueOf(a)     String str2 = String.valueOf(a); or String str3 = String.valueOf(1234);
+String.format("%d",a) String s=String.format("%d",a); 
+s1.toUpperCase()      char[] a = s1.toUpperCase();
+s1.toCharArray()      char[] a = s1.toUpperCase().toCharArray();
+
+Arrays.sort(a);
+
+NumberFormat.getCurrencyInstance(Locale.US);    NumberFormat u = NumberFormat.getCurrencyInstance(Locale.US);
+NumberFormat.getCurrencyInstance(); 
+u.format(payment)     String US = (u.format(payment));
+
+a.getClass()          System.out.println("My superclass is: " + a.getClass().getSuperclass().getName());
+a.getSuperclass()
+a.getName()
+
+JtpExample obj = new JtpExample("JavaTpoint");  
+obj.setName("Java Training");   
+
+\u000d                 // \u000d System.out.println("yes you can, you do this with a unicode character");

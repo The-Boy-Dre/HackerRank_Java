@@ -6,6 +6,118 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch test",
+      "request": "launch",
+      "mainClass": "test",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch nullkeyWord",
+      "request": "launch",
+      "mainClass": "nullkeyWord",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch PrintingComment",
+      "request": "launch",
+      "mainClass": "PrintingComment",
+      "projectName": "HackerRank_Java_eb480aa9"
+    },
+    {
+      "type": "java",
+      "name": "Launch tester",
+      "request": "launch",
+      "mainClass": "tester",
+      "projectName": "HackerRank_Java_eb480aa9"
+    },
+    {
+      "type": "java",
+      "name": "Launch Day3",
+      "request": "launch",
+      "mainClass": "Day3",
+      "projectName": "HackerRank_Java_eb480aa9"
+    },
+    {
+      "type": "java",
+      "name": "Launch Day2",
+      "request": "launch",
+      "mainClass": "Day2",
+      "projectName": "HackerRank_Java_eb480aa9"
+    },
+    {
+      "type": "java",
+      "name": "Launch Day1",
+      "request": "launch",
+      "mainClass": "Day1",
+      "projectName": "HackerRank_Java_eb480aa9"
+    },
+    {
+      "type": "java",
+      "name": "Launch Day0",
+      "request": "launch",
+      "mainClass": "Day0",
+      "projectName": "HackerRank_Java_eb480aa9"
+    },
+    {
+      "type": "java",
+      "name": "Launch Solution",
+      "request": "launch",
+      "mainClass": "Solution",
+      "projectName": "HackerRank_Java_eb480aa9"
+    },
+    {
+      "type": "java",
+      "name": "Launch AbstractClass",
+      "request": "launch",
+      "mainClass": "AbstractClass",
+      "projectName": "HackerRank_Java_eb480aa9"
+    },
+    {
+      "type": "java",
+      "name": "Launch TwoSums",
+      "request": "launch",
+      "mainClass": "TwoSums",
+      "projectName": "HackerRank_Java_eb480aa9"
+    },
+    {
+      "type": "java",
+      "name": "Launch ConditionalFunc",
+      "request": "launch",
+      "mainClass": "ConditionalFunc",
+      "projectName": "HackerRank_Java_eb480aa9"
+    },
+    {
+      "type": "java",
+      "name": "Launch Inheritance2",
+      "request": "launch",
+      "mainClass": "Inheritance2",
+      "projectName": "HackerRank_Java_eb480aa9"
+    },
+    {
+      "type": "java",
+      "name": "Launch Inheritance1",
+      "request": "launch",
+      "mainClass": "Inheritance1",
+      "projectName": "HackerRank_Java_eb480aa9"
+    },
+    {
+      "type": "java",
+      "name": "Launch StringTokens",
+      "request": "launch",
+      "mainClass": "StringTokens",
+      "projectName": "HackerRank_Java_eb480aa9"
+    },
+    {
+      "type": "java",
+      "name": "Launch Anagrams",
+      "request": "launch",
+      "mainClass": "Anagrams",
+      "projectName": "HackerRank_Java_eb480aa9"
+    },
+    {
+      "type": "java",
       "name": "Launch Practice",
       "request": "launch",
       "mainClass": "Practice",
