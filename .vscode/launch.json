@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Day3",
+      "request": "launch",
+      "mainClass": "Day3",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch ConditionalFunc",
+      "request": "launch",
+      "mainClass": "ConditionalFunc",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch prime",
+      "request": "launch",
+      "mainClass": "prime",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
       "name": "Launch test",
       "request": "launch",
       "mainClass": "test",

@@ -1,15 +1,28 @@
-public class test {
-  
+import java.util.LinkedList;
+import java.util.PriorityQueue;
+import java.util.Queue;
+
+class test{
+
   public static void main(String[] args) {
     
-    /*
-    for(;;){
-      System.out.println("edge of tomorrow");
-    }
-    */
-    
-    double x = 5.02;
-    double y = 0.01;
-    System.out.printf("%.2f\n",x + y);
+   LinkedList<String> officers = new LinkedList<String>();
+   officers.add("Blake");
+   officers.add("Burns");
+   officers.addLast("cody");
+   officers.addFirst("jawas");
+   officers.add(1, "michael angelo!");
+   officers.remove("jawas");
+
+   for(String s : officers){
+     System.out.println(s);
+   }
+
+   Queue<Integer> troy = new PriorityQueue<Integer>();
+   troy.add("football star");
+   troy.add("jermaine cole");
+
   }
 }
+
+
