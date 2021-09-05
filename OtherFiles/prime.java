@@ -22,8 +22,8 @@ public class prime
 
             if (factors == 2){
                 System.out.print(i+" ");
-                
             }
+            
         } // end of for loop
         
     }

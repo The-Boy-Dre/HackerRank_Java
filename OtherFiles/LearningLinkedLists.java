@@ -2,7 +2,7 @@ import java.util.LinkedList;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
-class test{
+class LearningLinkedLists{
 
   public static void main(String[] args) {
     
@@ -19,8 +19,14 @@ class test{
    }
 
    Queue<Integer> troy = new PriorityQueue<Integer>();
-   troy.add("football star");
-   troy.add("jermaine cole");
+   troy.add(1);
+   troy.add(3);
+   troy.add(45);
+   troy.add(30);
+
+   for(Integer a : troy){
+     System.out.println(a);
+   }
 
   }
 }

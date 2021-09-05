@@ -4,7 +4,83 @@
   // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
-    
+    {
+      "type": "java",
+      "name": "Launch TwoSums",
+      "request": "launch",
+      "mainClass": "TwoSums",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch change",
+      "request": "launch",
+      "mainClass": "change",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch challenge",
+      "request": "launch",
+      "mainClass": "challenge",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch knots",
+      "request": "launch",
+      "mainClass": "knots",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch JavaBigInteger",
+      "request": "launch",
+      "mainClass": "JavaBigInteger",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch CountDownAppNew",
+      "request": "launch",
+      "mainClass": "CountDownAppNew",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch testCountDownApp",
+      "request": "launch",
+      "mainClass": "testCountDownApp",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch LearningLinkedLists",
+      "request": "launch",
+      "mainClass": "LearningLinkedLists",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch CountTest",
+      "request": "launch",
+      "mainClass": "CountTest",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch CountDownApp",
+      "request": "launch",
+      "mainClass": "CountDownApp",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch LearningEnums",
+      "request": "launch",
+      "mainClass": "LearningEnums",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
     {
       "type": "java",
       "name": "Launch Day3",
