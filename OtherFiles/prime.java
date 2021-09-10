@@ -28,3 +28,17 @@ public class prime
         
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

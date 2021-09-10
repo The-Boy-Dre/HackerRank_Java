@@ -11,7 +11,7 @@ class TwoSums {
           }
         }
       }
-      throw new IllegalArgumentException("Damn it");
+      throw  new IllegalArgumentException("Damn it");
   } 
 
 
