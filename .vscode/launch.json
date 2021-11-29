@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch DataTypes",
+      "request": "launch",
+      "mainClass": "LanguageProficiency.DataTypes",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch AbstractClass",
+      "request": "launch",
+      "mainClass": "LanguageProficiency.AbstractClass",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
       "name": "Launch TwoSums",
       "request": "launch",
       "mainClass": "TwoSums",

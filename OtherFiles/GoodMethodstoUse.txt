@@ -18,3 +18,7 @@ JtpExample obj = new JtpExample("JavaTpoint");
 obj.setName("Java Training");   
 
 \u000d                 // \u000d System.out.println("yes you can, you do this with a unicode character");
+
+String a = ((7 > 3) ? "yass" : "moron no"); // A conditional function
+                                            // This sign (?) is called a conditional operator
+System.out.println(a);                      // yass
