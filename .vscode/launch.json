@@ -6,6 +6,69 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Day1",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.Day1",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch Solution",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.Solution",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch Day7",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.Day7",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch ConditionalFunc",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.ConditionalFunc",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch Inheritance2",
+      "request": "launch",
+      "mainClass": "LanguageProficiency.Inheritance2",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch Inheritance1",
+      "request": "launch",
+      "mainClass": "LanguageProficiency.Inheritance1",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch JavaSubstringComparisons",
+      "request": "launch",
+      "mainClass": "LanguageProficiency.JavaSubstringComparisons",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch test",
+      "request": "launch",
+      "mainClass": "LanguageProficiency.test",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch Palindrome",
+      "request": "launch",
+      "mainClass": "LanguageProficiency.Palindrome",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
       "name": "Launch DataTypes",
       "request": "launch",
       "mainClass": "LanguageProficiency.DataTypes",

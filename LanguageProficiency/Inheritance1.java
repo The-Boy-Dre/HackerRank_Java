@@ -1,3 +1,4 @@
+package LanguageProficiency;
 
 // Java allows for multiple classes to be in a file in case for some reason the user needs it to be
 
@@ -12,15 +13,13 @@ class Bird extends Animal{
 		System.out.println("I am flying");
 	}
   
-  
-  
   void sing(){
     System.out.println("I am singing");
   }
 }
 
 
-public class Inheritance1{
+public class Inheritance1{ 
 
    public static void main(String args[]){
 

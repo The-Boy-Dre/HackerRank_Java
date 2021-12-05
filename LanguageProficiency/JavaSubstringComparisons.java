@@ -1,3 +1,4 @@
+package LanguageProficiency;
 
 
 /*
@@ -14,7 +15,8 @@ public class JavaSubstringComparisons {
 
         String smallest = s.substring(0,k);
         String largest = "";
-        for(int i = 0; i < s.length()-k+1;i++){ //This lines is what makes you be able to iterate through the entire string, character by character
+
+        for(int i = 0; i < s.length()-k+1; i++){ //This lines is what makes you be able to iterate through the entire string, character by character
             if(s.substring(i,i+k).compareTo(smallest) <0) smallest = s.substring(i,i+k); 
               if(s.substring(i,i+k).compareTo(smallest) >0) largest = s.substring(i,i+k);
         }

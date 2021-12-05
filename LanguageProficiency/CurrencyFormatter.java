@@ -1,3 +1,4 @@
+package LanguageProficiency;
 
 /*
 Given a double-precision number, payment, denoting an amount of money, use the NumberFormat class' 

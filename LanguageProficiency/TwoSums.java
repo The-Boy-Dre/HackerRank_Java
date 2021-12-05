@@ -1,3 +1,4 @@
+package LanguageProficiency;
 
 import java.util.Arrays;
 class TwoSums {

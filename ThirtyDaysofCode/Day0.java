@@ -1,4 +1,4 @@
-
+package ThirtyDaysofCode;
 
 
 /* To complete this challenge, you must save a line of input from stdin to a variable, print Hello, World. on a single line, 
