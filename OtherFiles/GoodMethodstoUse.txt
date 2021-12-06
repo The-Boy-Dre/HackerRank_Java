@@ -9,12 +9,27 @@ Arrays.sort(a);
 NumberFormat.getCurrencyInstance(Locale.US);    NumberFormat u = NumberFormat.getCurrencyInstance(Locale.US);
 NumberFormat.getCurrencyInstance(); 
 u.format(payment)     String US = (u.format(payment));
-
+_________________________________________________________________________________________________________________________
 a.getClass()          System.out.println("My superclass is: " + a.getClass().getSuperclass().getName());
 a.getSuperclass()
 a.getName()
-
+_________________________________________________________________________________________________________________________
 JtpExample obj = new JtpExample("JavaTpoint");  
 obj.setName("Java Training");   
 
 \u000d                 // \u000d System.out.println("yes you can, you do this with a unicode character");
+_________________________________________________________________________________________________________________________
+String a = ((7 > 3) ? "yass" : "moron no"); // A conditional function
+                                            // This sign (?) is called a conditional operator
+System.out.println(a);                      // yass
+
+_________________________________________________________________________________________________________________________
+Random rand = new Random();
+int x = rand.nextInt(10);     // Another way to print random numebrs
+_________________________________________________________________________________________________________________________
+String word = "Alphabet";
+System.out.println(word.charAt(1)); // A
+_________________________________________________________________________________________________________________________
+String a = ((7 > 3) ? "yass" : "moron no");
+System.out.println(a); // yas
+_________________________________________________________________________________________________________________________

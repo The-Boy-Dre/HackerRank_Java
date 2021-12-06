@@ -1,3 +1,5 @@
+package LanguageProficiency;
+
 import java.util.Scanner;
 
 /*

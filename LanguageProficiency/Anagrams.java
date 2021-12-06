@@ -1,3 +1,5 @@
+package LanguageProficiency;
+
 
 /*
 Two strings, a and b, are called anagrams if they contain all the same characters in the same frequencies. 

@@ -1,3 +1,5 @@
+package LanguageProficiency;
+
 
 /*
 You have to create another class that extends the abstract class. Then you can create an instance of the new class.

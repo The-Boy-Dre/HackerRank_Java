@@ -1,12 +1,6 @@
-
-
-
-
-//Given a string A, print Yes if it is a palindrome, print No otherwise. 
-
+package LanguageProficiency;
 import java.util.Scanner;
-public class Palindrome{
-
+public class Palindrome{  //Given a string A, print Yes if it is a palindrome, print No otherwise. 
 
     static boolean isPalindrome(String str){
 
@@ -20,12 +14,11 @@ public class Palindrome{
         i++; // Increments the variable i 
         j--; // while decrementing the other at the same time
         }
-
         return true; // returns true only if the string goes through the while loop and a match is found
     }
 
-
     
+
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
