@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Day3",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.Day3",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch laa",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.laa",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch hmm",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.hmm",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
       "name": "Launch Day1",
       "request": "launch",
       "mainClass": "ThirtyDaysofCode.Day1",

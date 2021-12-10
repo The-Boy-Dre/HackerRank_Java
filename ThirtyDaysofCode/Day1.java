@@ -11,7 +11,7 @@ Use the + operator to perform the following operations:
 2. Print the sum of d plus your double variable to a scale of one decimal place on a new line.
 3. Concatenate s with the string you read as input and print the result on a new line. 
 */
-
+import java.io.*;
 import java.util.Scanner;
 
 public class Day1 {
@@ -27,6 +27,29 @@ public class Day1 {
       double deci = scan.nextDouble();
       scan.nextLine();       // This is what clears the cache when accepting user input
       String word = scan.nextLine();
+
+      System.out.println(i + nmb);
+      System.out.println(d + deci);
+      System.out.println(s + word);
+
+      scan.close();
+  }
+}
+
+
+class hmm {
+	
+  public static void main(String[] args) throws IOException {
+      int i = 4;
+      double d = 4.0;
+      String s = "HackerRank ";
+  
+
+      BufferedReader scan = new BufferedReader(new InputStreamReader(System.in));
+
+      int nmb = Integer.parseInt(scan.readLine());
+      double deci = Double.parseDouble(scan.readLine());
+      String word =  scan.readLine();
 
       System.out.println(i + nmb);
       System.out.println(d + deci);
