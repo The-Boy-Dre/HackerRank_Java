@@ -12,43 +12,39 @@ Each line i of the T subsequent lines contain a string, S.
 Output:
 print S's even-indexed characters, followed by a space, followed by S's odd-indexed characters. 
 */
+import java.io.*;
 
-import java.util.Scanner;
-public class Day6{
 
-  public static void main(String[] args) {
-    
-    Scanner scan = new Scanner(System.in);
-    int T = scan.nextInt();
-    
+public class Day6 {
 
-    for(int i = 0; i < T; i++){
-      String S = scan.next();
-      //char[] word = S.toCharArray(); // This is also an alternative way to check through a string
-     
+    public static void main(String[] args) throws IOException{
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
 
-            for(int z = 0; z < S.length(); z++){
-          //for(int z = 0; z < word.length; z++){ // This is also an alternative way to check through a string
-              if(z % 2 == 0){
-              System.out.print(S.charAt(z));
-            //System.out.print(word[z]); // This is also an alternative way to check through a string
-              }
+        BufferedReader buff = new BufferedReader(new InputStreamReader(System.in));
+        int T = Integer.parseInt(buff.readLine());
+
+        for(int i = 1; i <= T; i++){      
+          String S = buff.readLine();
+          int nmb = S.length();
+          
+            for(int x = 0; x < nmb; x++){
+              if(x % 2 == 0){
+                System.out.print(S.charAt(x));
+                }
             }
-  
             System.out.print(" ");
 
-            for(int x = 0; x < S.length(); x++){
-              if(x % 2 != 0){
-              System.out.print(S.charAt(x));
-              }
+            for(int y = 0; y < nmb; y++){
+              if(y % 2 != 0){
+                System.out.print(S.charAt(y));
+                }
             }
-            System.out.println();
+          System.out.println();
+        }
+        buff.close();
+
     }
-
-   scan.close();      
-  }
 }
-
 /*
 Output:
 2

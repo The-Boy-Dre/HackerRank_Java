@@ -6,6 +6,83 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Day10",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.Day10",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch Day9",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.Day9",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch reee",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.reee",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch SUSS",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.SUSS",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch Day8",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.Day8",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch Java_HashMapInterface",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.Java_HashMapInterface",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.Main",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch Java_MapInterface",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.Java_MapInterface",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch Java_Dictionaries",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.Java_Dictionaries",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch TwoSums",
+      "request": "launch",
+      "mainClass": "LanguageProficiency.TwoSums",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch Day5",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.Day5",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
       "name": "Launch Day3",
       "request": "launch",
       "mainClass": "ThirtyDaysofCode.Day3",

@@ -39,7 +39,7 @@ public class Day3 {
 
 
 
-class Solution {
+class Bufferedsolution {
     public static void main(String[] args) throws IOException {
 
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));

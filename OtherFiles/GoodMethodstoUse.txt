@@ -33,3 +33,40 @@ ________________________________________________________________________________
 String a = ((7 > 3) ? "yass" : "moron no");
 System.out.println(a); // yas
 _________________________________________________________________________________________________________________________
+Integer.toString(a)   String str1 = Integer.toString(a);
+String.valueOf(a)     String str2 = String.valueOf(a); or String str3 = String.valueOf(1234);
+String.format("%d",a) String s=String.format("%d",a); 
+s1.toUpperCase()      char[] a = s1.toUpperCase();
+s1.toCharArray()      char[] a = s1.toUpperCase().toCharArray();
+
+Arrays.sort(a);
+
+NumberFormat.getCurrencyInstance(Locale.US);    NumberFormat u = NumberFormat.getCurrencyInstance(Locale.US);
+NumberFormat.getCurrencyInstance(); 
+u.format(payment)     String US = (u.format(payment));
+_________________________________________________________________________________________________________________________
+a.getClass()          System.out.println("My superclass is: " + a.getClass().getSuperclass().getName());
+a.getSuperclass()
+a.getName()
+_________________________________________________________________________________________________________________________
+JtpExample obj = new JtpExample("JavaTpoint");  
+obj.setName("Java Training");   
+
+\u000d                 // \u000d System.out.println("yes you can, you do this with a unicode character");
+_________________________________________________________________________________________________________________________
+System.out.printf("%.0f\n", 234.234); // 234
+_________________________________________________________________________________________________________________________
+
+String[] arrTemp = Br.readLine().split(" "); 
+System.out.printLn(Arrays.toString(arrTemp)); // [yellow, bello, jacket, Hunter]   This line reads a string and converts it to a String array
+
+String[] brrTemp = Br.readLine().replaceAll("yellow", "").split(" "); 
+System.out.printLn(Arrays.toString(brrTemp)); // [, bello, jacket, Hunter] 
+
+String[] crrTemp = Br.readLine().replaceAll("bello", "susan ritta").split(" "); 
+System.out.printLn(Arrays.toString(crrTemp)); // [yellow, susan, ritta, jacket, Hunter]
+
+tring sample = "123 123 123 123 321";
+    String replaced = sample.replaceAll("123", "111");
+    System.out.println("replaced string: " + replaced); // replaced string: 111 111 111 111 321
+_________________________________________________________________________________________________________________________
