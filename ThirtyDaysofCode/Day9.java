@@ -33,7 +33,7 @@ Therefore, there are 720 different ways you could switch everyone around.
 
 public class Day9 {
 
-    public static int factorial(int n) {
+    public static long factorial(long n) { // switched from int because the datat type was too small to store bigger factorials
         if(n > 0){
             return n * factorial(n - 1); // This line of code is being constantly called on it's self
         }
@@ -56,11 +56,11 @@ public class Day9 {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("D:\\source.txt"));
 
-        int n = Integer.parseInt(bufferedReader.readLine().trim());
+        long n = Long.parseLong(bufferedReader.readLine().trim());
 
-        int result = factorial(n);
+        long result = factorial(n);
 
-        bufferedWriter.write(String.valueOf(result)); // This is how we write not string output to text documents
+        bufferedWriter.write(String.valueOf(result)); // This is how we write non string output to text documents
         System.out.println(result);
 
         bufferedReader.close();

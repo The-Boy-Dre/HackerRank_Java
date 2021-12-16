@@ -26,6 +26,8 @@ public class Day8{
           // Write code here
          phoneBook.put(name, phone);
       }
+
+      
       
       while(scan.hasNext()){ // This makes this while loop accept user input as long as there are items to be inputted
         String s = scan.nextLine();
