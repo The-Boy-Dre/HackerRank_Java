@@ -1,5 +1,4 @@
 package ThirtyDaysofCode;
-
 import java.io.*;
 
 

@@ -21,28 +21,29 @@ public class Day6 {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
 
         BufferedReader buff = new BufferedReader(new InputStreamReader(System.in));
-        int T = Integer.parseInt(buff.readLine());
+        int T = Integer.parseInt(buff.readLine());  
 
         for(int i = 1; i <= T; i++){      
-          String S = buff.readLine();
-          int nmb = S.length();
-          
-            for(int x = 0; x < nmb; x++){
-              if(x % 2 == 0){
-                System.out.print(S.charAt(x));
-                }
-            }
-            System.out.print(" ");
+            String S = buff.readLine();
+            int nmb = S.length(); // Your strings length
+            
+              for(int x = 0; x < nmb; x++){
+                if(x % 2 == 0){
+                  System.out.print(S.charAt(x));
+                  }
+              }
+              System.out.print(" ");
 
-            for(int y = 0; y < nmb; y++){
-              if(y % 2 != 0){
-                System.out.print(S.charAt(y));
-                }
-            }
-          System.out.println();
+              for(int y = 0; y < nmb; y++){
+                if(y % 2 != 0){
+                  System.out.print(S.charAt(y));
+                  }
+              }
+            System.out.println();
         }
-        buff.close();
+        
 
+        buff.close();
     }
 }
 /*

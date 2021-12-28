@@ -26,8 +26,8 @@ class Result {
       
       System.out.printf("%.0f\n",meal + tip2 + tax2);
     }
-
 }
+
 
 public class Day2 {
   

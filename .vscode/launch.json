@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Demo",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.Demo",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch johnjohn",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.johnjohn",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch AnswerDay10",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.AnswerDay10",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch Day6",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.Day6",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch ArrayMaxMinPrinter",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.ArrayMaxMinPrinter",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
       "name": "Launch Day10",
       "request": "launch",
       "mainClass": "ThirtyDaysofCode.Day10",

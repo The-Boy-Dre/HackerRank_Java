@@ -66,7 +66,7 @@ System.out.printLn(Arrays.toString(brrTemp)); // [, bello, jacket, Hunter]
 String[] crrTemp = Br.readLine().replaceAll("bello", "susan ritta").split(" "); 
 System.out.printLn(Arrays.toString(crrTemp)); // [yellow, susan, ritta, jacket, Hunter]
 
-tring sample = "123 123 123 123 321";
+String sample = "123 123 123 123 321";
     String replaced = sample.replaceAll("123", "111");
     System.out.println("replaced string: " + replaced); // replaced string: 111 111 111 111 321
 _________________________________________________________________________________________________________________________

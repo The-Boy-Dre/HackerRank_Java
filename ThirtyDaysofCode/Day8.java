@@ -1,6 +1,5 @@
 package ThirtyDaysofCode;
 import java.util.*;
-import java.io.*;
 
 /*
 Given n names and phone numbers, assemble a phone book that maps friends' names to their respective phone numbers. 
@@ -31,18 +30,17 @@ public class Day8{
       
       while(scan.hasNext()){ // This makes this while loop accept user input as long as there are items to be inputted
         String s = scan.nextLine();
+         
+            if(s.equalsIgnoreCase("stop")){ // this is how you stop a hasNext loop
+               break;
+               }
 
-        if(s.equalsIgnoreCase("stop")){ // this is how you stop a hasNext loop
-           break;
-           }
-
-        if(phoneBook.containsKey(s)){
-           System.out.println(s + "=" + phoneBook.get(s)); //Easiest way to get an individual value and set in a HashMap
-           }
-           else {
-                System.out.println("Not found");
-                } 
-                
+            if(phoneBook.containsKey(s)){
+               System.out.println(s + "=" + phoneBook.get(s)); //Easiest way to get an individual value and set in a HashMap
+               }
+               else {
+                     System.out.println("Not found");
+                     } 
       }
       scan.close();
   }

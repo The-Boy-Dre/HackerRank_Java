@@ -42,6 +42,7 @@ public class Day4  {
 															System.out.println("You are old.");
 													}
 			}
+			
 	
 			public void yearPasses() {
 						// Increment this person's age.
