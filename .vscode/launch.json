@@ -6,6 +6,69 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch ReversesString",
+      "request": "launch",
+      "mainClass": "LanguageProficiency.ReversesString",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch pollyWog",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.pollyWog",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch IterateOverQueueExample",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.IterateOverQueueExample",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch QueueSizeSearchFrontExample",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.QueueSizeSearchFrontExample",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch QueueExample",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.QueueExample",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch IterateOverStackExample",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.IterateOverStackExample",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch StackExample",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.StackExample",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch GFG1",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.GFG1",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch CreateLinkedListExample",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.CreateLinkedListExample",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
       "name": "Launch Demo",
       "request": "launch",
       "mainClass": "ThirtyDaysofCode.Demo",
