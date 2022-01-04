@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Ma",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.Ma",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch slain",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.slain",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch Blib",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.Blib",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch Nana",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.Nana",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch thegrind",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.thegrind",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
       "name": "Launch ReversesString",
       "request": "launch",
       "mainClass": "LanguageProficiency.ReversesString",

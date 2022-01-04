@@ -1,11 +1,14 @@
 package ThirtyDaysofCode;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Deque;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.ListIterator;
+import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.Stack;
 
@@ -378,3 +381,132 @@ Angelina
 Julia
 */
 
+
+class thegrind {
+    public static void main(String[] args) {
+
+        // Creating a priority queue
+        PriorityQueue<Integer> numbers = new PriorityQueue<>();
+
+        // Using the add() method
+        numbers.add(4);
+        numbers.add(2);
+        System.out.println("PriorityQueue: " + numbers);
+
+        // Using the offer() method
+        numbers.offer(1);
+        System.out.println("Updated PriorityQueue: " + numbers);
+    }
+}
+
+/*
+PriorityQueue: [2, 4]
+Updated PriorityQueue: [1, 4, 2]
+*/
+
+
+class Nana {
+    public static void main(String[] args) {
+
+        // Creating a priority queue
+        PriorityQueue<Integer> numbers = new PriorityQueue<>();
+        numbers.add(4);
+        numbers.add(2);
+        numbers.add(1);
+        System.out.println("PriorityQueue: " + numbers);
+
+        // Using the peek() method
+        int number = numbers.peek();
+        System.out.println("Accessed Element: " + number);
+    }
+}
+/*
+PriorityQueue: [1, 4, 2]
+Accessed Element: 1
+*/
+
+class Blib {
+    public static void main(String[] args) {
+
+        // Creating a priority queue
+        PriorityQueue<Integer> numbers = new PriorityQueue<>();
+        numbers.add(4);
+        numbers.add(2);
+        numbers.add(1);
+        System.out.println("PriorityQueue: " + numbers);
+
+        // Using the remove() method
+        boolean result = numbers.remove(2);
+        System.out.println("Is the element 2 removed? " + result);
+
+        // Using the poll() method
+        int number = numbers.poll();
+        System.out.println("Removed Element Using poll(): " + number);
+    }
+}
+/*
+PriorityQueue: [1, 4, 2]
+Is the element 2 removed? true
+Removed Element Using poll(): 1
+*/
+
+class slain {
+    public static void main(String[] args) {
+
+        // Creating a priority queue
+        PriorityQueue<Integer> numbers = new PriorityQueue<>();
+        numbers.add(4);
+        numbers.add(2);
+        numbers.add(1);
+        System.out.print("PriorityQueue using iterator(): ");
+
+        //Using the iterator() method
+        Iterator<Integer> iterate = numbers.iterator();
+        while(iterate.hasNext()) {
+            System.out.print(iterate.next());
+            System.out.print(", ");
+        }
+    }
+}
+/*
+PriorityQueue using iterator(): 1, 4, 2, 
+*/
+
+class Ma {
+
+    public static void main(String[] args) {
+        // Creating Deque using the ArrayDeque class
+        Deque<Integer> numbers = new ArrayDeque<>();
+
+        // add elements to the Deque
+        numbers.offer(1);
+        numbers.offerLast(2);
+        numbers.offerFirst(3);
+        numbers.push(4);
+        System.out.println("Deque: " + numbers);
+
+        // Access elements of the Deque
+        int firstElement = numbers.peekFirst();
+        System.out.println("First Element: " + firstElement);
+
+        int lastElement = numbers.peekLast();
+        System.out.println("Last Element: " + lastElement);
+
+        // Remove elements from the Deque
+        int removedNumber1 = numbers.pollFirst();
+        System.out.println("Removed First Element: " + removedNumber1);
+
+        int removedNumber2 = numbers.pollLast();
+        System.out.println("Removed Last Element: " + removedNumber2);
+
+        System.out.println("Updated Deque: " + numbers);
+    }
+}
+/*
+Deque: [3, 1, 2]
+First Element: 3
+Last Element: 2
+Removed First Element: 3
+Removed Last Element: 2
+Updated Deque: [1]
+*/

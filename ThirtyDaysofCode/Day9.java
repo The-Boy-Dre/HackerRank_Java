@@ -68,3 +68,20 @@ public class Day9 {
 }
 
 
+    class Solution
+{
+
+        public int[] TwoSum(int[] nums, int target) throws Exception
+        {
+           for(int i = 0; i < nums.length; i++){
+           
+               for(int j = i+1; j < nums.length; j++ ){
+               
+                   if(nums[i] + nums[j] == target)
+                   return new int[] {i,j};
+               }
+           }
+           throw new Exception("Not Found!");
+        }
+
+    }
