@@ -6,6 +6,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Java_Arraydeque_BetterStack",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.Java_Arraydeque_BetterStack",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch Dawn",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.Dawn",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch DQ",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.DQ",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch Java_LinkedList",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.Java_LinkedList",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch LAL",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.LAL",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
+      "name": "Launch Java_ArrayList",
+      "request": "launch",
+      "mainClass": "ThirtyDaysofCode.Java_ArrayList",
+      "projectName": "HackerRank_Java_c4b11496"
+    },
+    {
+      "type": "java",
       "name": "Launch Ma",
       "request": "launch",
       "mainClass": "ThirtyDaysofCode.Ma",

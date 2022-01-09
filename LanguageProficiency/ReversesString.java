@@ -10,14 +10,14 @@ public class ReversesString{
       return reverse.toString();
   }
 
-  public static String reverse(String str){ // This entire method is meant to just use the StringBuilder's Reverse emthod
+  public static String reverse(String str){ // This entire method is meant to just use the StringBuilder's Reverse method
       StringBuilder word = new StringBuilder();
       word.append(str);
       word.reverse();
       return word.toString();
   }
 
-  public static String revo(String str){ // This entire method is meant to just use the StringBuilder's Reverse emthod
+  public static String revo(String str){ // This entire method is meant to just use the StringBuilder's Reverse method
   StringBuilder word = new StringBuilder(str);
   return word.reverse().toString();
 }
@@ -34,7 +34,6 @@ public class ReversesString{
 }
 
 /*
-
 
 If you use String concatenation in a loop, something like this,
 
