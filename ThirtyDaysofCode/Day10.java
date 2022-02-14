@@ -23,6 +23,7 @@ public class Day10 {
             }
         }
         System.out.println(max);
+        System.out.println(Arrays.toString(groupings));
 
 
         in.close();
